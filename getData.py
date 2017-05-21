@@ -40,7 +40,7 @@ def downloadTs(url, name, index):
 	os.system('wget ' + url + ' -O static/ts/' + name + '_' + str(index) + '.ts')
 
 def main():
-	afile = open("names.txt")
+	afile = open("url.txt")
 	while 1:
 		name = afile.readline()[0: -1].replace(' ', '').replace('\n', '').replace('\r', '').replace('\t', '')
 		if not name:
