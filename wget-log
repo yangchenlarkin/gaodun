@@ -1,0 +1,11 @@
+--2017-05-21 19:55:43--  http://vod.gaodun.com/player/authorize?id=08tc0Afx0g1EIg2a%0D
+Resolving vod.gaodun.com... 114.55.182.176
+Connecting to vod.gaodun.com|114.55.182.176|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 16 [application/octet-stream]
+Saving to: 'static/key/08tc0Afx0g1EIg2a\r'
+
+     0K                                                       100%  601K=0s
+
+2017-05-21 19:55:47 (601 KB/s) - 'static/key/08tc0Afx0g1EIg2a\r' saved [16/16]
+
