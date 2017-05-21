@@ -4,3 +4,5 @@ static/m3u8/*
 static/fixedm3u8/*
 serverIP.py
 *.pyc
+.DS_Store
+*/.DS_Store
