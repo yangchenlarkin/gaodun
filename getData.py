@@ -3,6 +3,8 @@
 import os
 import serverIP
 
+MAIN_URL = serverIP.MAIN_URL
+
 def getM3u8(name):
 	url = 'http://vod.gaodun.com/' + name + '/SD/1.m3u8'
 	os.system('wget ' + url + ' -O static/m3u8/' + name + '.m3u8')
