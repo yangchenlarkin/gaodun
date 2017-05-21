@@ -2,6 +2,7 @@ static/key/*
 static/ts/*
 static/m3u8/*
 static/fixedm3u8/*
+serverIP.pyc
 serverIP.py
 .DS_Store
 */.DS_Store
