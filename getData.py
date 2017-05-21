@@ -15,6 +15,7 @@ def getKey(name):
 
 def handleM3u8(name):
 	afile = open("static/m3u8/" + name + '.m3u8', 'r')
+	os.system('touch static/fixedm3u8/' + name + '.m3u8')
 	resfile = open("static/fixedm3u8/" + name + '.m3u8', 'w+')
 	tsindex = 0
 	while 1:
