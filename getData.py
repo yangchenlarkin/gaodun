@@ -1,8 +1,7 @@
 
 # File: readline-example-1.py
 import os
-
-MAIN_URL = 'http://127.0.0.1:6565'
+import serverIP
 
 def getM3u8(name):
 	url = 'http://vod.gaodun.com/' + name + '/SD/1.m3u8'
